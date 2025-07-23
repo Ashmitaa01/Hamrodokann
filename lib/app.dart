@@ -1,6 +1,6 @@
-import 'package:cwt_ecommerce_admin_panel/routes/routes.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:hamrodokan/routes/routes.dart';
 
 import 'bindings/general_bindings.dart';
 import 'common/widgets/page_not_found/page_not_found.dart';

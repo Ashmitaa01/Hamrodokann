@@ -1,7 +1,7 @@
-import 'package:cwt_ecommerce_admin_panel/features/admin_managment/controller/create_admin_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../../../../../common/widgets/layouts/templates/site_layout.dart';
+import '../../../controller/create_admin_controller.dart';
 import 'layouts/desktop.dart';
 import 'layouts/mobile.dart';
 

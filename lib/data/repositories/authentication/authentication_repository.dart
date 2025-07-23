@@ -1,7 +1,6 @@
 import 'dart:convert';
 
 import 'package:cloud_functions/cloud_functions.dart';
-import 'package:cwt_ecommerce_admin_panel/features/personalization/models/user_model.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/foundation.dart';
@@ -11,6 +10,7 @@ import 'package:http/http.dart' as http;
 import 'package:t_utils/t_utils.dart';
 
 import '../../../features/personalization/controllers/user_controller.dart';
+import '../../../features/personalization/models/user_model.dart';
 import '../../../routes/routes.dart';
 import '../../../utils/constants/enums.dart';
 import '../../../utils/constants/text_strings.dart';

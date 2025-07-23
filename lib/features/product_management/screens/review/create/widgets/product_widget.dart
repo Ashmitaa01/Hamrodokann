@@ -1,4 +1,3 @@
-import 'package:cwt_ecommerce_admin_panel/features/personalization/controllers/user_controller.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -7,6 +6,7 @@ import 'package:t_utils/t_utils.dart';
 
 import '../../../../../../utils/constants/image_strings.dart';
 import '../../../../../../utils/constants/text_strings.dart';
+import '../../../../../personalization/controllers/user_controller.dart';
 import '../../../../controllers/product/product_controller.dart';
 import '../../../../controllers/review/create_review_controller.dart';
 

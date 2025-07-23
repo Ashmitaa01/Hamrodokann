@@ -1,9 +1,11 @@
-import 'package:cwt_ecommerce_admin_panel/features/personalization/controllers/user_controller.dart';
-import 'package:cwt_ecommerce_admin_panel/utils/constants/enums.dart';
+
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:t_overlay_notification/t_overlay_notification.dart';
 import 'package:t_utils/t_utils.dart';
+
+import '../../features/personalization/controllers/user_controller.dart';
+import '../../utils/constants/enums.dart';
 
 /// A generic controller class for managing data tables using GetX state management.
 /// This class provides common functionalities for handling data tables, including fetching, updating, and deleting items.

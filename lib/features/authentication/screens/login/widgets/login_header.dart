@@ -18,7 +18,7 @@ class TLoginHeader extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const Image(width: 100, height: 100, image: AssetImage(TImages.darkAppLogo)),
+          const Image(width: 100, height: 100, image: AssetImage(TImages.hamroDokanLogo )),
           SizedBox(height: TSizes().spaceBtwSections),
           Text(TTexts.loginTitle.tr, style: Theme.of(context).textTheme.headlineMedium),
           SizedBox(height: TSizes().sm),

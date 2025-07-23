@@ -1,9 +1,11 @@
-import 'package:cwt_ecommerce_admin_panel/features/admin_managment/controller/create_admin_controller.dart';
-import 'package:cwt_ecommerce_admin_panel/utils/constants/enums.dart';
+
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
 import 'package:t_utils/t_utils.dart';
+
+import '../../../../../../utils/constants/enums.dart';
+import '../../../../controller/create_admin_controller.dart';
 
 class CreateAdminForm extends StatelessWidget {
   CreateAdminForm({super.key});

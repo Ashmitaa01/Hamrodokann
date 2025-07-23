@@ -1,9 +1,10 @@
-import 'package:cwt_ecommerce_admin_panel/utils/constants/exports.dart';
 import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:t_utils/t_utils.dart';
 
+import '../../../../utils/constants/image_strings.dart';
+import '../../../../utils/constants/text_strings.dart';
 import '../../controllers/dashboard_controller.dart';
 
 class OrderStatusPieChart extends StatelessWidget {

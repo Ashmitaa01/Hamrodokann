@@ -1,8 +1,7 @@
-import 'package:cwt_ecommerce_admin_panel/features/admin_managment/screens/admin/create/create_admin.dart';
-import 'package:cwt_ecommerce_admin_panel/features/admin_managment/screens/admin/view/admin.dart';
-import 'package:cwt_ecommerce_admin_panel/features/role_management/screens/roles_and_permissions/view/role.dart';
 import 'package:get/get.dart';
 
+import '../features/admin_managment/screens/admin/create/create_admin.dart';
+import '../features/admin_managment/screens/admin/view/admin.dart';
 import '../features/authentication/screens/forget_password/forget_password.dart';
 import '../features/authentication/screens/login/login.dart';
 import '../features/chat/screens/all_chats/all _chats.dart';
@@ -44,6 +43,7 @@ import '../features/promotion_management/screens/coupon/edit/edit_coupon.dart';
 import '../features/promotion_management/screens/coupon/view/coupons.dart';
 import '../features/promotion_management/screens/notification/create/create_notification.dart';
 import '../features/promotion_management/screens/notification/view/notifications.dart';
+import '../features/role_management/screens/roles_and_permissions/view/role.dart';
 import 'routes.dart';
 import 'routes_middleware.dart';
 

@@ -1,9 +1,9 @@
-import 'package:cwt_ecommerce_admin_panel/data/repositories/role_repositories/role_repository.dart';
-import 'package:cwt_ecommerce_admin_panel/features/personalization/controllers/user_controller.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
 import 'package:t_utils/t_utils.dart';
+import '../../../../data/repositories/role_repositories/role_repository.dart';
 import '../../../../utils/constants/enums.dart';
+import '../../../personalization/controllers/user_controller.dart';
 import '../../models/role_model.dart';
 
 class RoleController extends GetxController {

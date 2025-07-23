@@ -1,14 +1,16 @@
-import 'package:cwt_ecommerce_admin_panel/features/admin_managment/controller/admin_controller.dart';
-import 'package:cwt_ecommerce_admin_panel/features/personalization/models/user_model.dart';
-import 'package:cwt_ecommerce_admin_panel/features/role_management/controllers/role/role_controller.dart';
-import 'package:cwt_ecommerce_admin_panel/routes/routes.dart';
-import 'package:cwt_ecommerce_admin_panel/utils/constants/enums.dart';
-import 'package:cwt_ecommerce_admin_panel/utils/constants/image_strings.dart';
+
 import 'package:data_table_2/data_table_2.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:t_utils/t_utils.dart';
 import 'package:t_utils/utils/constants/enums.dart';
+
+import '../../../../../../routes/routes.dart';
+import '../../../../../../utils/constants/enums.dart';
+import '../../../../../../utils/constants/image_strings.dart';
+import '../../../../../personalization/models/user_model.dart';
+import '../../../../../role_management/controllers/role/role_controller.dart';
+import '../../../../controller/admin_controller.dart';
 
 class AdminTable extends StatelessWidget {
   const AdminTable({super.key});

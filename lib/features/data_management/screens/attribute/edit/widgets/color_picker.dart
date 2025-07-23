@@ -1,4 +1,3 @@
-import 'package:cwt_ecommerce_admin_panel/features/data_management/controllers/attribute/edit_attribute_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_colorpicker/flutter_colorpicker.dart';
 import 'package:get/get.dart';
@@ -7,6 +6,7 @@ import 'package:iconsax/iconsax.dart';
 import 'package:t_utils/t_utils.dart';
 
 import '../../../../../../utils/constants/text_strings.dart';
+import '../../../../controllers/attribute/edit_attribute_controller.dart';
 
 
 class ColorPickerEdit extends StatelessWidget {

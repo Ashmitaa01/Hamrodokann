@@ -1,4 +1,3 @@
-import 'package:cwt_ecommerce_admin_panel/features/personalization/controllers/settings_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
@@ -6,6 +5,7 @@ import 'package:iconsax/iconsax.dart';
 import 'package:t_utils/t_utils.dart';
 
 import '../../../../../utils/constants/image_strings.dart';
+import '../../../controllers/settings_controller.dart';
 
 class ImageAndMeta extends StatelessWidget {
   const ImageAndMeta({

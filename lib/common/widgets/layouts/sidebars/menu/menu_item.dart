@@ -1,10 +1,10 @@
-import 'package:cwt_ecommerce_admin_panel/data/repositories/authentication/authentication_repository.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:t_utils/utils/constants/colors.dart';
 import 'package:t_utils/utils/constants/sizes.dart';
 import 'package:url_launcher/link.dart';
 
+import '../../../../../data/repositories/authentication/authentication_repository.dart';
 import '../sidebar_controller.dart';
 
 class TMenuItem extends StatelessWidget {

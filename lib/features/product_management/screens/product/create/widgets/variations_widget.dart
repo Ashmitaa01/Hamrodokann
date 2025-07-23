@@ -1,4 +1,3 @@
-import 'package:cwt_ecommerce_admin_panel/features/product_management/controllers/product/product_attributes_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
@@ -9,6 +8,7 @@ import '../../../../../../utils/constants/enums.dart';
 import '../../../../../../utils/constants/image_strings.dart';
 import '../../../../../../utils/constants/text_strings.dart';
 import '../../../../controllers/product/create_product_controller.dart';
+import '../../../../controllers/product/product_attributes_controller.dart';
 import '../../../../controllers/product/product_images_controller.dart';
 import '../../../../controllers/product/product_variations_controller.dart';
 import '../../../../models/product_variation_model.dart';

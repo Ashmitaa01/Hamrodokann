@@ -1,12 +1,12 @@
 import 'dart:typed_data';
 
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:cwt_ecommerce_admin_panel/features/personalization/controllers/user_controller.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:get/get_rx/src/rx_types/rx_types.dart';
 import 'package:t_utils/t_utils.dart';
 
 import '../../../utils/constants/enums.dart';
+import '../../personalization/controllers/user_controller.dart';
 
 /// Model class representing user data.
 class ImageModel {

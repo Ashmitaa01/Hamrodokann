@@ -60,7 +60,7 @@ class TLoginTemplate extends StatelessWidget {
             Positioned(
               bottom: TSizes().defaultSpace,
               child: Text(
-                'Powered by Coding with T.',
+                'Powered by Hamro Dokan',
                 style: Theme.of(context).textTheme.bodyLarge!.apply(color: TColors().white),
               ),
             )

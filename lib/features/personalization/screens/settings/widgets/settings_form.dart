@@ -1,7 +1,7 @@
-import 'package:cwt_ecommerce_admin_panel/features/personalization/screens/settings/widgets/point_base_seting.dart';
-import 'package:cwt_ecommerce_admin_panel/features/personalization/screens/settings/widgets/tax_shipping_setting.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:hamrodokan/features/personalization/screens/settings/widgets/point_base_seting.dart';
+import 'package:hamrodokan/features/personalization/screens/settings/widgets/tax_shipping_setting.dart';
 import 'package:iconsax/iconsax.dart';
 import 'package:t_utils/t_utils.dart';
 

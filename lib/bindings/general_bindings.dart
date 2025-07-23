@@ -1,8 +1,9 @@
-import 'package:cwt_ecommerce_admin_panel/features/personalization/controllers/settings_controller.dart';
-import 'package:cwt_ecommerce_admin_panel/features/role_management/controllers/role/role_controller.dart';
+
 import 'package:get/get.dart';
 import 'package:t_utils/utils/helpers/network_manager.dart';
+import '../features/personalization/controllers/settings_controller.dart';
 import '../features/personalization/controllers/user_controller.dart';
+import '../features/role_management/controllers/role/role_controller.dart';
 import '../localization/localization_helper.dart';
 
 

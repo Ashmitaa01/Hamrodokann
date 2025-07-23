@@ -1,5 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:cwt_ecommerce_admin_panel/utils/constants/enums.dart';
+
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
@@ -8,6 +8,7 @@ import 'package:get/get.dart';
 import 'package:t_utils/t_utils.dart';
 
 import '../../../features/media/models/image_model.dart';
+import '../../../utils/constants/enums.dart';
 import '../../../utils/constants/text_strings.dart';
 
 class MediaRepository extends GetxController {

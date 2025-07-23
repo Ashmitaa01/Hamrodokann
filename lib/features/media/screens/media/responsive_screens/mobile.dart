@@ -1,12 +1,13 @@
-import 'package:cwt_ecommerce_admin_panel/features/role_management/controllers/role/role_controller.dart';
-import 'package:cwt_ecommerce_admin_panel/utils/constants/enums.dart';
+
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
 
 import 'package:t_utils/t_utils.dart';
 
+import '../../../../../utils/constants/enums.dart';
 import '../../../../../utils/constants/text_strings.dart';
+import '../../../../role_management/controllers/role/role_controller.dart';
 import '../../../controllers/media_controller.dart';
 import '../widgets/media_content.dart';
 import '../widgets/media_uploader.dart';

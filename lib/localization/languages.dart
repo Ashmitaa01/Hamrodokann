@@ -1,6 +1,6 @@
-import 'package:cwt_ecommerce_admin_panel/localization/Languages/brazilian.dart';
 import 'package:get/get.dart';
 
+import 'Languages/brazilian.dart';
 import 'Languages/english.dart';
 import 'Languages/french.dart';
 import 'Languages/german.dart';

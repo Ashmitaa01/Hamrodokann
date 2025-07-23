@@ -1,4 +1,5 @@
-import 'package:cwt_ecommerce_admin_panel/utils/constants/sizes.dart';
+import 'dart:core' as TAdminSizes;
+
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_web_plugins/flutter_web_plugins.dart';
@@ -12,7 +13,7 @@ import 'firebase_options.dart';
 import 'utils/constants/colors.dart';
 
 /// Entry point of Flutter App
-Future<void> main() async {
+TAdminSizes.Future<void> main() async {
   // Ensure that widgets are initialized
   WidgetsFlutterBinding.ensureInitialized();
 
@@ -24,7 +25,7 @@ Future<void> main() async {
 
   // Initialize Colors and Sizes
   TAdminColors.override();
-  TAdminSizes.override();
+  TAdminSizes.override;
 
   // YOUR SUPABASE KEY ID HERE
   await Supabase.initialize(

@@ -5,9 +5,10 @@
 class TImages {
 
   // -- App Logos
-  static const String cwtLogo = "assets/logos/cwt-logo.png";
-  static const String darkAppLogo = "assets/logos/t-store-splash-logo-black.png";
-  static const String lightAppLogo = "assets/logos/t-store-splash-logo-white.png";
+  static const String cwtLogo = "assets/logos/hamrodokan.jpg";
+  static const String darkAppLogo = "assets/logos/hamrodokan.jpg";
+  static const String lightAppLogo = "assets/logos/hamrodokan.jpg";
+  static const String hamroDokanLogo = "assets/logos/hamrodokan.jpg";
 
   // -- Default Images
   static const String aspectRation16_9 = "assets/images/content/16-9-ratio-image.png";

@@ -1,10 +1,11 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:cwt_ecommerce_admin_panel/features/personalization/controllers/user_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
+import 'package:supabase_flutter/supabase_flutter.dart';
 import 'package:t_utils/utils/exports.dart';
 
+import '../../../features/personalization/controllers/user_controller.dart';
 import '../../../features/product_management/models/product_model.dart';
 import '../../../features/product_management/models/product_review_model.dart';
 import '../../../utils/constants/text_strings.dart';
@@ -83,7 +84,7 @@ class ReviewRepository extends TBaseRepositoryController<ReviewModel> {
         }
 
         // Convert existing lastReviews (List<ReviewModel>) to a list of maps.
-        List<dynamic> lastReviewsList = (product.lastReviews ?? []).map((review) => review.toJson()).toList();
+        List<dynamic> lastReviewsList = (product.lastReviews ?? []).map((review) => review?.toJson()).toList();
 
         // 4. Create a new ReviewModel instance.
         // (For createdAt and updatedAt, we use DateTime.now() as placeholders.

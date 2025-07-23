@@ -1,6 +1,6 @@
-import 'package:cwt_ecommerce_admin_panel/features/authentication/screens/forget_password/responsive_screens/forget_password_desktop.dart';
-import 'package:cwt_ecommerce_admin_panel/features/authentication/screens/forget_password/responsive_screens/forget_password_mobile.dart';
 import 'package:flutter/material.dart';
+import 'package:hamrodokan/features/authentication/screens/forget_password/responsive_screens/forget_password_desktop.dart';
+import 'package:hamrodokan/features/authentication/screens/forget_password/responsive_screens/forget_password_mobile.dart';
 
 import '../../../../common/widgets/layouts/templates/site_layout.dart';
 

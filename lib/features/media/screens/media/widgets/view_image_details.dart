@@ -1,5 +1,4 @@
 import 'package:clipboard/clipboard.dart';
-import 'package:cwt_ecommerce_admin_panel/features/media/controllers/media_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
@@ -7,6 +6,7 @@ import 'package:t_overlay_notification/t_overlay_notification.dart';
 import 'package:t_utils/t_utils.dart';
 
 import '../../../../../utils/constants/text_strings.dart';
+import '../../../controllers/media_controller.dart';
 import '../../../models/image_model.dart';
 
 class ImagePopup extends StatelessWidget {

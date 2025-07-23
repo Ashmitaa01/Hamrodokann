@@ -1,11 +1,11 @@
-import 'package:cwt_ecommerce_admin_panel/features/personalization/controllers/user_controller.dart';
-import 'package:cwt_ecommerce_admin_panel/features/personalization/models/user_model.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:t_utils/t_utils.dart';
 import '../../../../../utils/exports.dart';
 import '../../../../data/repositories/authentication/authentication_repository.dart';
 import '../../../../data/repositories/user/user_repository.dart';
+import '../../personalization/controllers/user_controller.dart';
+import '../../personalization/models/user_model.dart';
 import 'admin_controller.dart';
 
 class CreateAdminController extends GetxController {

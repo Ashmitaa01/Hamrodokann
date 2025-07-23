@@ -1,6 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:cwt_ecommerce_admin_panel/features/product_management/models/product_review_model.dart';
 import 'package:get/get.dart';
+import 'package:hamrodokan/features/product_management/models/product_review_model.dart';
 import 'package:t_utils/t_utils.dart';
 
 import '../../../utils/constants/enums.dart';

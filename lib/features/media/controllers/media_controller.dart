@@ -1,6 +1,5 @@
 import 'dart:typed_data';
 
-import 'package:cwt_ecommerce_admin_panel/features/personalization/controllers/user_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_dropzone/flutter_dropzone.dart';
 import 'package:get/get.dart';
@@ -12,6 +11,7 @@ import '../../../data/repositories/media/supabase_storage.dart';
 import '../../../utils/constants/enums.dart';
 import '../../../utils/constants/image_strings.dart';
 import '../../../utils/constants/text_strings.dart';
+import '../../personalization/controllers/user_controller.dart';
 import '../models/image_model.dart';
 import '../screens/media/widgets/media_content.dart';
 import '../screens/media/widgets/media_uploader.dart';
